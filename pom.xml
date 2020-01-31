@@ -49,7 +49,12 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
-
+		<!-- https://mvnrepository.com/artifact/org.axonframework.extensions.amqp/axon-amqp-spring-boot-starter -->
+		<dependency>
+			<groupId>org.axonframework.extensions.amqp</groupId>
+			<artifactId>axon-amqp-spring-boot-starter</artifactId>
+			<version>4.2</version>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
